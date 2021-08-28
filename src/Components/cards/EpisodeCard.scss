@@ -1,0 +1,60 @@
+.episode--item--card--parent {
+    width: 100%;
+    border: 1px solid rgb(150, 146, 146);
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    height: 250px;
+    -webkit-box-shadow: 0px 0px 7px 1px #97949442; 
+    box-shadow: 0px 0px 7px 1px #97949442;
+    &.expand {
+        height: auto !important;
+    }
+    .title--section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .created {
+            font-size: 12px;
+            color: gray;
+            letter-spacing: 0.5px;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+    .episode--number, .air--date, .cast {
+        font-weight: bold;
+        span {
+            color: gray;
+            font-size: 14px;
+            margin-right: 5px;
+            font-weight: normal;
+        }
+    }
+    .info {
+        transition: 0.5s;
+        .more--information {
+            .cast {
+                display: flex;
+                justify-content: space-between;
+                > span {
+                    display: block;
+                    .MuiSvgIcon-root {
+                        width: 10px;
+                        height: 10px;
+                        margin-right: 2px;
+                    }
+                }
+            }   
+        }
+    }
+    .expand--section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

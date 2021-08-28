@@ -1,0 +1,12 @@
+.container--content {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: calc(100vh - 140px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .episode--item--card--parent {
+        width: calc(50% - 10px);
+    }
+}

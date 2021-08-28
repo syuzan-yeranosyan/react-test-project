@@ -1,0 +1,22 @@
+.home--page {
+    width: 100%;
+    @media (min-width: 320px) and (max-width: 1300px) {
+        .navbar--container {
+            padding: 0 60px;
+        }
+        .home--page--content {
+            width: 100%;
+            padding: 0 60px;
+            .container--content {
+                width: 100%;
+                .episode--item--card--parent {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .home--page--content {
+        width: 100%;
+        min-height: calc(100vh - 96px);
+    }
+}
